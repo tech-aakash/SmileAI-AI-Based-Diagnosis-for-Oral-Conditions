@@ -27,7 +27,7 @@ This project can assist healthcare professionals by enabling early detection and
 
 - **YOLO Version**: YOLOv11
 - **Programming Language**: Python 3.9
-- **Libraries**: OpenCV, NumPy, Matplotlib
+- **Libraries**: Numpy, Pandas, Roboflow, Ultralytics
 - **Environment**: Jupyter Notebook
 
 ---
@@ -60,3 +60,8 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/SmileAI.git
    cd SmileAI
+2. Install the libraries
+   ```bash
+   pip install -r requirements.txt
+
+## Results
