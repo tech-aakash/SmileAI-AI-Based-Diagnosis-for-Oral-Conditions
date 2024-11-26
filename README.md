@@ -9,7 +9,7 @@ SmileAI is a cutting-edge project aimed at assisting early diagnosis and treatme
 2. [Technologies Used](#technologies-used)
 3. [Dataset Details](#dataset-details)
 4. [Getting Started](#getting-started)
-5. [Results](#results)
+5. [Model Performance](#model-performance)
 6. [Future Work](#future-work)
 7. [Contact](#contact)
 
@@ -64,4 +64,4 @@ Make sure you have the following installed:
    ```bash
    pip install -r requirements.txt
 
-## Results
+## Model Performance
