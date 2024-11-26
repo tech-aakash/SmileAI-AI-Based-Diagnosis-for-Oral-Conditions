@@ -11,7 +11,6 @@ SmileAI is a cutting-edge project aimed at assisting early diagnosis and treatme
 4. [Getting Started](#getting-started)
 5. [Model Performance](#model-performance)
 6. [Results](#results)
-7. [Contact](#contact)
 
 ---
 
