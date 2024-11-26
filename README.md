@@ -65,3 +65,37 @@ Make sure you have the following installed:
    pip install -r requirements.txt
 
 ## Model Performance
+### 1. Normalized Confusion Matrix
+![Confusion Matrix Normalized](model_performance/confusion_matrix_normalized.png)
+
+- Strong performance for **Lichen** (0.81) and **DecayCavity** (0.78).
+- Misclassifications observed in **Plaque** and **EarlyDecay**, with spillover into "Background."
+- Moderate accuracy for **HealthyTooth** (0.75), with some confusion with **DecayCavity**.
+
+---
+
+### 2. F1-Confidence Curve
+![F1 Confidence Curve](model_performance/F1_curve.png)
+
+- Best F1 score: **0.54** at confidence **0.203**.
+- High F1 for **Lichen** and **DecayCavity**.
+- Poor F1 for **Plaque** and **Missing**, indicating issues with these classes.
+
+---
+
+### 3. Precision-Recall Curve
+![Precision-Recall Curve](model_performance/PR_curve.png)
+
+- High precision and recall for **Lichen** and **DecayCavity**.
+- Low recall for **Gingivitis** and **Plaque**, indicating frequent missed detections.
+- Overall mAP@0.5: **0.562**.
+
+---
+
+### 4. Training Metrics
+![Training Metrics](model_performance/results.png)
+
+- Loss metrics (box, classification, DFL) consistently decrease, indicating proper convergence.
+- Validation loss slightly higher than training loss, suggesting mild overfitting.
+
+---
