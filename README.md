@@ -57,7 +57,7 @@ Make sure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/SmileAI.git
+   git clone [https://github.com/your-username/SmileAI.git](https://github.com/tech-aakash/SmileAI-AI-Based-Diagnosis-for-Oral-Conditions.git)
    cd SmileAI
 2. Install the libraries
    ```bash
