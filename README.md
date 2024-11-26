@@ -10,7 +10,7 @@ SmileAI is a cutting-edge project aimed at assisting early diagnosis and treatme
 3. [Dataset Details](#dataset-details)
 4. [Getting Started](#getting-started)
 5. [Model Performance](#model-performance)
-6. [Future Work](#future-work)
+6. [Results](#results)
 7. [Contact](#contact)
 
 ---
@@ -97,5 +97,27 @@ Make sure you have the following installed:
 
 - Loss metrics (box, classification, DFL) consistently decrease, indicating proper convergence.
 - Validation loss slightly higher than training loss, suggesting mild overfitting.
+
+---
+
+## Results
+
+### Detection Results
+
+#### 1. Detection of Plaque
+![Detection of Plaque](results/results0.jpg)
+- The model detects **Plaque** with a confidence score of **0.59**. The bounding boxes indicate successful identification of the affected areas.
+
+---
+
+#### 2. Detection of Caries
+![Detection of Caries](results/results1.jpg)
+- **Caries** is detected with a confidence score of **0.78**, showcasing the model's ability to identify decay accurately in detailed regions.
+
+---
+
+#### 3. Detection of Gingivitis
+![Detection of Gingivitis](results/results2.jpg)
+- The model detects **Gingivitis** with a confidence score of **0.26**, which is relatively low, suggesting room for improvement in identifying inflammation conditions.
 
 ---
